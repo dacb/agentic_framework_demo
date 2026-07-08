@@ -23,5 +23,5 @@ Other objectives:
 2. Active ideation time. For the fictionalized setting, the participants will go use whiteboards, notepads, the GitHub wiki for the primary repository to layout the agent and skill network.  Keep in mind the goal, objective, task approach and progressive disclosure.  Know that for simplicity, every skill will end up calling the python core script, if you are doing the kitchen setting, this will be `kitchen.py`
 
 Location for the skills:
-* 
-* Project agent-compatible: .agents/skills/<name>/SKILL.md
+* Project agents: .opencode/agents/<name>.md
+* Project skills: .agents/skills/<name>/SKILL.md
