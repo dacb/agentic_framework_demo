@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Task runner for the kitchen agentic workflow example.
+Mosk task runner for the aop agentic workflow example.
 
 Purposefully not completed documented to give the chance for the agents to analyze their own workflow outputs.
 """
@@ -13,7 +13,7 @@ import time
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Kitchen task runner")
+    parser = argparse.ArgumentParser(description="Mock task runner")
     parser.add_argument("--magic", type=float, default=0.0, help="the magic value")
     parser.add_argument("task", type=str, help="the task to execute")
     parser.add_argument("extras", nargs="*", help="additional arguments")
