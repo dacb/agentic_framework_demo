@@ -25,3 +25,15 @@ Other objectives:
 Location for the skills:
 * Project agents: .opencode/agents/<name>.md
 * Project skills: .agents/skills/<name>/SKILL.md
+
+## How to make a new skill
+Use the npx skills tool?  Uh. WIP.
+```
+npx skill 
+```
+
+## How to make a new agent
+Use the opencode agent creator.
+```
+opencode agent create
+```
